@@ -18,7 +18,7 @@ date_format: "%Y-%m-%d"
 url: https://git.joshuaavalon.io
 ? baseurl
 permalink: pretty
-repository: joshuaavalon/joshuaavalon.github.io
+? repository
 
 # Pagination
 paginate: 10
@@ -263,7 +263,7 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: hide
+  display: always
   #display: always
   #display: hide
   #display: remove
@@ -326,7 +326,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: true
+  enable: false
   license: CC BY-ND 4.0
   license_url: https://creativecommons.org/licenses/by-nd/4.0/
 
