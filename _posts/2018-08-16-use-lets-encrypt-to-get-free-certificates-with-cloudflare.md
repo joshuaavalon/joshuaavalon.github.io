@@ -3,12 +3,12 @@ title: Use Let's Encrypt to get free certificates with Cloudflare
 date: 2018-08-16 10:08:00
 categories:
   - Tutorial
-  - Homelab
 tags:
   - Let's Encrypt
   - HTTPS
   - Cloudflare
   - Certbot
+  - homelab
 ---
 
 [Chrome][1] and [Firefox][2] has planned to mark **ALL** the HTTP connection to be not secure.

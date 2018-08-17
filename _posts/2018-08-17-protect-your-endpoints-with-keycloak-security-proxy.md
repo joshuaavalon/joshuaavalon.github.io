@@ -3,11 +3,11 @@ title: Protect your endpoints with Keycloak Security Proxy
 date: 2018-08-17 14:17:00
 categories:
   - Tutorial
-  - Homelab
 tags:
   - Keycloak
   - Docker
   - reverse proxy
+  - homelab
 ---
 
 When we setup applications in our homelab, there are always some applications do not have authentication or authentication that can integrated with you existing system.
