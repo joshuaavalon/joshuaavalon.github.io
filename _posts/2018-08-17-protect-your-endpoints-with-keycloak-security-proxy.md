@@ -37,7 +37,9 @@ By using Keycloak, you now only have one place to manage user credentials and us
 
 ![Docker][5]
 
-In this tutorial, we will use Docker to deploy because it is much easier to install and manage.
+In this tutorial, we will use Docker to deploy because it is much easier to install and manage applications.
+
+It is still possible to set it up without Docker, but that will not be covered in this tutorial.
 
 ## Docker Compose
 
