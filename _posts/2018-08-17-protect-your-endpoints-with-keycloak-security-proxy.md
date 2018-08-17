@@ -91,12 +91,12 @@ We will create a configuration file at `/home/user/proxy/proxy.json`.
 ```
 All the configuration can be found [here][7].
 
-**target-url:** This the address to proxy. We use `whoami` because we are going to to deploy a container with a hostname of `whoami`.
-**bind-address:** It needs to be `0.0.0.0` in order to listen request from outside.
-**http-port:** The port that it listen to. This does not matter as we have to map it on Docker again.
-**base-path:** Base path of the application. Since we only have 1 application, we use `/`.
-**adapter-config:** This is generated from Keycloak. Paste the configuration from previous section. 
-**constraints:** Constraints for accessing the application. In this example, all paths can only be access if they have have `user` role.
+* **target-url:** This the address to proxy. We use `whoami` because we are going to to deploy a container with a hostname of `whoami`.
+* **bind-address:** It needs to be `0.0.0.0` in order to listen request from outside.
+* **http-port:** The port that it listen to. This does not matter as we have to map it on Docker again.
+* **base-path:** Base path of the application. Since we only have 1 application, we use `/`.
+* **adapter-config:** This is generated from Keycloak. Paste the configuration from previous section. 
+* **constraints:** Constraints for accessing the application. In this example, all paths can only be access if they have have `user` role.
 
 ## Configure Docker Compose
 
