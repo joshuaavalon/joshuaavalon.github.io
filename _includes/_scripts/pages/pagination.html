@@ -2,7 +2,7 @@
 {% assign paginate = site[page.layout].paginate | default: site.paginate  %}
 
 {% if paginate > 0 %}
-  <script type="text/javascript" src="{{ site.js | relative_url }}/src/paginator.js"></script>
+  <script type="text/javascript" src="{{ site.js | relative_url }}/src/paginator.min.js"></script>
   <script>
     (function() {
       // Url route

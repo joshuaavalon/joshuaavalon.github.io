@@ -23,11 +23,11 @@
     {% if site.duoshuo_info.admin_enable %}
       {% assign ua_parser_internal = site.vendors._internal | append: '/ua-parser-js/dist/ua-parser.min.js?v=0.7.9' | relative_url %}
       <script src="{{ site.vendors.ua_parser | default: ua_parser_internal }}"></script>
-      <script src="{{ site.js | relative_url }}/src/hook-duoshuo.js?v={{ site.version }}"></script>
+      <script src="{{ site.js | relative_url }}/src/hook-duoshuo.min.js?v={{ site.version }}"></script>
     {% endif %}
     {% assign ua_parser_internal = site.vendors._internal | append: '/ua-parser-js/dist/ua-parser.min.js?v=0.7.9' | relative_url %}
     <script src="{{ site.vendors.ua_parser | default: ua_parser_internal }}"></script>
-    <script src="{{ site.js | relative_url }}/src/hook-duoshuo.js"></script>
+    <script src="{{ site.js | relative_url }}/src/hook-duoshuo.min.js"></script>
   {% endif %}
 
 {% endif %}
