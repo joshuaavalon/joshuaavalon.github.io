@@ -113,7 +113,7 @@ services:
     ports:
       - 80:8080
     volumes:
-      - /home/user/proxy:/opt/jboss/conf
+      - /home/user/proxy/proxy.json:/opt/jboss/conf/proxy.json
 ```
 
 ## Run it
