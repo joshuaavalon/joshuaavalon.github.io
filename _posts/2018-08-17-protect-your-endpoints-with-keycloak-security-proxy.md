@@ -130,7 +130,7 @@ If you have logined and you match the constraints, you can just use it normally.
 [1]: https://github.com/causefx/Organizr
 [2]: https://github.com/causefx/Organizr/blob/4312e360d9a0291d20b7a776897ee63e997ab20f/auth.php
 [3]: https://www.keycloak.org/about.html
-[4]: https://user-images.githubusercontent.com/7152420/44251372-b1cb0a80-a22a-11e8-9e58-68d3c1da2822.png
-[5]: https://user-images.githubusercontent.com/7152420/44251743-189cf380-a22c-11e8-9ac2-7d52c08f58e8.png
-[6]: https://user-images.githubusercontent.com/7152420/44251782-4124ed80-a22c-11e8-8364-7e0ebd30eb80.png
+[4]: https://user-images.githubusercontent.com/7152420/44316457-541f0400-a45e-11e8-9ddf-d7a588390d42.png
+[5]: https://user-images.githubusercontent.com/7152420/44316456-541f0400-a45e-11e8-9e55-341b758c798e.png
+[6]: https://user-images.githubusercontent.com/7152420/44316459-541f0400-a45e-11e8-8893-23fa4145de4c.png
 [7]: https://www.keycloak.org/docs/3.3/server_installation/topics/proxy.html
