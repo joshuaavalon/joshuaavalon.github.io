@@ -114,6 +114,6 @@ It is definitely worth trying out Cloudflare. Not only it is free but it provide
 
 If you are a programmer, you can also control the setting through REST API.
 
-[1]: {{ site.baseurl }}{% post_url 2010-07-21-name-of-post %}
+[1]: {{ site.baseurl }}{% post_url 2018-08-16-use-lets-encrypt-to-get-free-certificates-with-cloudflare %}
 [Cloudflare]: https://cloudflare.com
 [DNSSEC]: https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions
