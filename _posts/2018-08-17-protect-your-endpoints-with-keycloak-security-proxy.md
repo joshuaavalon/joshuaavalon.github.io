@@ -14,6 +14,8 @@ When we setup applications in our homelab, there are always some applications do
 
 <!--more-->
 
+> Updated at 2018-08-31
+
 The solution I was using was [Organizr][1].
 While it protects your endpoint, it is not the best solution.
 If you read the [source code][2], it is just caching *IP address* which can lead to a lot of problems.
@@ -98,6 +100,12 @@ All the configuration can be found [here][7].
 * **adapter-config:** This is generated from Keycloak. Paste the configuration from previous section. 
 * **constraints:** Constraints for accessing the application. In this example, all paths can only be access if they have have `user` role.
 
+I have came across a problem that Keycloak is redirecting to HTTP instead of HTTPS which causes mixed content issue. I found an answer on [StackOverflow](stackoverflow) that you can add 
+
+```json
+"proxy-address-forwarding" : true
+```
+
 ## Configure Docker Compose
 
 Then, we create the following `docker-compose.yml`.
@@ -134,3 +142,4 @@ If you have logined and you match the constraints, you can just use it normally.
 [5]: https://user-images.githubusercontent.com/7152420/44316456-541f0400-a45e-11e8-9e55-341b758c798e.png
 [6]: https://user-images.githubusercontent.com/7152420/44316459-541f0400-a45e-11e8-8893-23fa4145de4c.png
 [7]: https://www.keycloak.org/docs/3.3/server_installation/topics/proxy.html
+[stackoverflow]: https://stackoverflow.com/a/38327585/3673259
